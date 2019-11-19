@@ -1020,6 +1020,7 @@ body {
 	text-align: center;
     transition: 300ms;
     font-weight: bold;
+    
 }
 a.active, .nav a:hover{
 	background-color: white;
