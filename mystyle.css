@@ -1041,21 +1041,20 @@ a.active, .nav a:hover{
 .e{
     width: 85%;
 }
+
+
 .logo{
-    width: 50%;
-}
-.logo{
-    width: 17%;
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
 .animated-text{
     color: whitesmoke;
     font-weight: bold;
     position: absolute;
-    top: 50%;
-    right: -10%;
+    top: 5%;
+    right: 30%;
     transform: translate(-50%,-50%);
     background-image: url(./images/backgroundimage.jpg);
     padding: 0 40px;
@@ -1097,4 +1096,7 @@ a.active, .nav a:hover{
       margin-top: 0;
     }
   }
-  
+  .skeleton{
+    float: right;
+    width: 30%;
+  }
