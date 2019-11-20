@@ -9,9 +9,20 @@
     <h1 class="headerh1">Minecraft Computer</h1>
 </head>
 <body>
-        <center><video autoplay muted loop id="myVideo"> <!--loops video-->
-            <source src="/vids/Official Minecraft Trailer.mp4" type="video/mp4">
-          </video></center>
- 
+    <body class="body1">
+        <div class="stage">
+            <div class="cube">
+              <figure class="back"></figure>
+              <figure class="top"></figure>
+              <figure class="bottom"></figure>
+              <figure class="left"></figure>
+              <figure class="right"></figure>
+              <figure class="front"></figure>
+            </div>
+        <script>
+        window.addEventListener("load", function () {
+        const loader = document.querySelector(".loader");
+        loader.className += " hidden"; // class "loader hidden"
+        </script>
 </body>
 </html>
