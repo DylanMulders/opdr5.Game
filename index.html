@@ -1,51 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-    <img src="./images/minecraft skeleton.png" class="skeleton">
-    <audio controls autoplay>
-      <source src="./Sounds/Minecraft 1.13 Title Screen Music.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    
-    
+  <meta charset="UTF-8">
+  <title>Minecraft Style Menu & Buttons</title>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
-<body class="body1">
-    <div class="stage">
-        <div class="cube">
-          <figure class="back"></figure>
-          <figure class="top"></figure>
-          <figure class="bottom"></figure>
-          <figure class="left"></figure>
-          <figure class="right"></figure>
-          <figure class="front"></figure>
-        </div>
-      </div>
-      <div class="background">
-            <div class="nav">
-                <a class="a active" onmousedown="bleep.play" href="#">HOME</a>
-                <a class="b" onmousedown="bleep.play()" href="minecraftplaystation.html">Minecraft Playstation</a>
-                <a class="c" onmousedown="bleep.play()"  href="#">Minecraft Xbox</a>
-                <a class="d" onmousedown="bleep.play()"  href="#">Minecraft PC </a>
-                <a class="e" onmousedown="bleep.play()"  href="#">Minecraft Nintendo </a>
-            </div>
-            <div class="animated-text">
-                    <div class="line">Hallo</div>
-                    <div class="line">Welkom</div>
-                    <div class="line">op mijn</div>
-                    <div class="line">website</div>
-                  </div>
-                  <script>
-                    var bleep = new Audio();
-                    bleep.src = 'bleep.mp3';
+<body>
+<!-- partial:index.partial.html -->
+<!--//- Menu-->
+<div class="mc-menu">
+  <div class="mc-button full">
+    <div class="title">Home</div>
+  </div>
+  <div class="mc-button full">
+    <div class="title">Minecraft Playstation</div>
+  </div>
+  <div class="mc-button full">
+    <div class="title">Minecraft Xbox</div>
+  </div>
+  <div class="double">
+    <div class="mc-button full">
+      <div class="title">Minecraft pc</div>
+    </div>
+    <div class="mc-button full">
+      <div class="title">Minecraft Nintendo</div>
+    </div>
+  </div>
+  <div class="mc-button full lang">
+    <div class="title"><img src="https://i.ibb.co/99187Lk/lang.png" alt=" Lang"/></div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
 
-                   
-                    </script>
-
-                  
-      
 </body>
 </html>
