@@ -6,9 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
     <img src="./images/minecraft skeleton.png" class="skeleton">
+    <audio controls autoplay>
+      <source src="./Sounds/Minecraft 1.13 Title Screen Music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    
     
 </head>
-<body>
+<body class="body1">
     <div class="stage">
         <div class="cube">
           <figure class="back"></figure>
@@ -21,11 +26,11 @@
       </div>
       <div class="background">
             <div class="nav">
-                <a class="a active" href="#">HOME</a>
-                <a class="b" href="#">Minecraft Playstation</a>
-                <a class="c" href="#">Minecraft Xbox</a>
-                <a class="d" href="#">Minecraft PC </a>
-                <a class="e" href="#">Minecraft Nintendo </a>
+                <a class="a active" onmousedown="bleep.play" href="#">HOME</a>
+                <a class="b" onmousedown="bleep.play()" href="minecraftplaystation.html">Minecraft Playstation</a>
+                <a class="c" onmousedown="bleep.play()"  href="#">Minecraft Xbox</a>
+                <a class="d" onmousedown="bleep.play()"  href="#">Minecraft PC </a>
+                <a class="e" onmousedown="bleep.play()"  href="#">Minecraft Nintendo </a>
             </div>
             <div class="animated-text">
                     <div class="line">Hallo</div>
@@ -33,6 +38,14 @@
                     <div class="line">op mijn</div>
                     <div class="line">website</div>
                   </div>
+                  <script>
+                    var bleep = new Audio();
+                    bleep.src = 'bleep.mp3';
+
+                   
+                    </script>
+
+                  
       
 </body>
 </html>
