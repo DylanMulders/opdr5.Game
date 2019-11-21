@@ -4,3 +4,11 @@ body{
     background-repeat: no-repeat;
     text-align: center;
 }
+
+video{
+    float: left;
+}
+
+h2{
+    float: left;
+}
