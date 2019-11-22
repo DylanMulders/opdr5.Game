@@ -112,3 +112,7 @@ body {
 .mc-button.lang .title {
   padding-bottom: 0;
 }
+.background{
+  width: 50%;
+  height: 50%;
+}
