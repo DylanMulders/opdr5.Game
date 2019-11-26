@@ -33,20 +33,16 @@ h1{
     float: right;
 }
 
-h2{
-}
-
 #bruh {
 float: right;
 
 }
 
 p { 
-color: blue
+color: white;
+background-image: url(./images/minecraft_stone_brick_simple_texture_wallpaper_by_elbarnzo_d82j2kd-fullview.jpg);
+}
 
-}
-    text-align: center;
-}
 
 .button2 {
     background-image: url(./images/emerald.jpg);
