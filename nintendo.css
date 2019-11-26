@@ -12,23 +12,23 @@ h1{
 
  
 .video-size {
-    height:600px;
+    height:400spx;
     width:50%;
     overflow:hidden;
 }
 .video-size > video {
-    height:600px;
+    height:400px;
     width:50%;
 }
 
 #video {
-    height:600px;
+    height:400px;
     width:50%;
     overflow:hidden;
     float: right;
 }
 #video > video {
-    height:600px;
+    height:400px;
     width:50%;
     float: right;
 }
@@ -43,16 +43,15 @@ h2{
     border: none;
     color: white;
     padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 40px;
+    text-align: center;
     
     cursor: pointer;
     position:absolute;
 
     bottom:1%;
-    align-content: center;
 
 
   }
