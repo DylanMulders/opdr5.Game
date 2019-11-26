@@ -2,13 +2,57 @@ body{
     background-image: url(./images/1000857-large-minecraft-background-images-1920x1080-download.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+h1{
     text-align: center;
 }
 
-video{
-    float: left;
+
+
+ 
+.video-size {
+    height:600px;
+    width:50%;
+    overflow:hidden;
+}
+.video-size > video {
+    height:600px;
+    width:50%;
+}
+
+#video {
+    height:600px;
+    width:50%;
+    overflow:hidden;
+    float: right;
+}
+#video > video {
+    height:600px;
+    width:50%;
+    float: right;
 }
 
 h2{
-    float: left;
+    text-align: center;
+    color:blue;
 }
+
+.button2 {
+    background-image: url(./images/emerald.jpg);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    
+    cursor: pointer;
+    position:absolute;
+
+    bottom:1%;
+    align-content: center;
+
+
+  }
