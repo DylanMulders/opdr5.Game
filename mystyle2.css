@@ -76,7 +76,7 @@ body {    /*set the body of the html file : minecraftplaystation.html*/
       font-size: 35px;
       
     position:relative; 
-      top:45%; left:0%;
+      top:43%; left:0%;
     }
     .button3 { /*creates a second button in the html file*/
         background-image: url(./images/emerald.jpg);
@@ -89,7 +89,7 @@ body {    /*set the body of the html file : minecraftplaystation.html*/
         font-size: 35px;
         
       position:relative; 
-        top:45%; left:50%;
+        top:44%; left:40%;
       }
     .fish  /*set the settings of the image in the html file*/
     {
