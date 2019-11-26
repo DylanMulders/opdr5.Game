@@ -34,8 +34,18 @@ h1{
 }
 
 h2{
+}
+
+#bruh {
+float: right;
+
+}
+
+p { 
+color: blue
+
+}
     text-align: center;
-    color:blue;
 }
 
 .button2 {
