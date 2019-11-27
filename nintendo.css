@@ -46,11 +46,11 @@ float: right;
 }
 
 /*styling of the "go to index button"*/
-#button2 {
-p { 
-color: white;
-background-image: url(./images/minecraft_stone_brick_simple_texture_wallpaper_by_elbarnzo_d82j2kd-fullview.jpg);
+p {
+    color: white;
+    background-image: url(./images/minecraft_stone_brick_simple_texture_wallpaper_by_elbarnzo_d82j2kd-fullview.jpg);
 }
+
 
 
 .button2 {
