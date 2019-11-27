@@ -1,26 +1,28 @@
+/*the styling of the background*/
 body{
     background-image: url(./images/1000857-large-minecraft-background-images-1920x1080-download.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/*the styling of the titel*/
 h1{
     text-align: center;
 }
 
 
 
- 
+ /*the styling of the minecraft teaser*/
 .video-size {
     height:400spx;
     width:50%;
     overflow:hidden;
 }
+/*the styling of the gameplay video*/
 .video-size > video {
     height:400px;
     width:50%;
 }
-
+/*the styling of the gameplay video*/
 #video {
     height:400px;
     width:50%;
@@ -32,23 +34,18 @@ h1{
     width:50%;
     float: right;
 }
-
+/*the styling of the main text*/
 h2{
+    color: blue;
 }
-
+/*styling of gyon's video*/
 #bruh {
 float: right;
 
 }
 
-p { 
-color: blue
-
-}
-    text-align: center;
-}
-
-.button2 {
+/*styling of the "go to index button"*/
+#button2 {
     background-image: url(./images/emerald.jpg);
     border: none;
     color: white;
