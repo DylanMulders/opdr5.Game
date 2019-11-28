@@ -8,7 +8,7 @@ min-height: 100vh;
 background-image:url(./images/1000857-large-minecraft-background-images-1920x1080-download.jpg);
 font-family: 'Poppins', sans-serif;
 }
-.container
+.container /*De container voor alles*/
 {
     position: relative;
     width: 90%;
@@ -57,13 +57,13 @@ font-family: 'Poppins', sans-serif;
     background: rgb(255, 255, 255, 0.05);
     pointer-events: none;
 }
-.box .content h2{
+.box .content h2{ /*Verandert de headers boven de boxes. Top specifeerd de afstand van de top van de box en de tekst. Transition verandert hoe snel het verandert*/
     position: absolute;
     top: -60px;
     right: 20px;
     margin: 0;
     padding: 0;
-    font-size: 3em;
+    font-size: 2.7em;
     color: rgba(255, 255, 255, .05);
     transition: 0.5s;
 }
@@ -102,3 +102,16 @@ top: -100px;
     opacity: 1;
     visibility: visible;
 }
+.button2 { /*creates a button in the html file*/
+    background-image: url(./images/emerald.jpg);
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    
+  position:relative; 
+    top:43%; left:0%;
+  }
